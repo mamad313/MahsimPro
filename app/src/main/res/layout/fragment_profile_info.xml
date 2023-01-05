@@ -97,9 +97,10 @@
         android:id="@+id/btnPickGallery"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginTop="72dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtPhoneTitle"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imgProfile"
-        app:srcCompat="@android:drawable/ic_menu_gallery" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_photo_size_select_actual_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

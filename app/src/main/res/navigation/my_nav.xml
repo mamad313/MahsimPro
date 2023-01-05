@@ -16,16 +16,6 @@
             app:destination="@id/innerFragment" />
     </fragment>
     <fragment
-        android:id="@+id/searchFragment"
-        android:name="com.example.mahsimecommerce.fragments.Search.SearchFragment"
-        android:label="Search"
-        tools:layout="@layout/fragment_search" />
-    <fragment
-        android:id="@+id/likeFragment"
-        android:name="com.example.mahsimecommerce.fragments.Like.LikeFragment"
-        android:label="Like"
-        tools:layout="@layout/fragment_like" />
-    <fragment
         android:id="@+id/basketFragment"
         android:name="com.example.mahsimecommerce.fragments.Basket.BasketFragment"
         android:label="Basket"
