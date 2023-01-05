@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/purple_700">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilePhoto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/photoprofile"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameId"
+        android:paddingTop="8dp"
+        android:textSize="20dp"
+        android:text="mamad kanjoori"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/emailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="mamiteatree@gmail.com"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_white"/>
+</LinearLayout>

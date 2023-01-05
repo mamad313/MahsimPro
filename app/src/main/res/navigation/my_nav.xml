@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mahsimecommerce.fragments.Home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_innerFragment"
+            app:destination="@id/innerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.mahsimecommerce.fragments.Search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/likeFragment"
+        android:name="com.example.mahsimecommerce.fragments.Like.LikeFragment"
+        android:label="Like"
+        tools:layout="@layout/fragment_like" />
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.example.mahsimecommerce.fragments.Basket.BasketFragment"
+        android:label="Basket"
+        tools:layout="@layout/fragment_basket" >
+        <argument
+            android:name="currentBasket"
+            app:argType="com.example.mahsimecommerce.data.User" />
+    </fragment>
+    <fragment
+        android:id="@+id/innerFragment"
+        android:name="com.example.mahsimecommerce.InnerFragment"
+        android:label="fragment_inner"
+        tools:layout="@layout/fragment_inner" >
+        <argument
+            android:name="currentUser"
+            app:argType="com.example.mahsimecommerce.models.ChildProduct" />
+        <action
+            android:id="@+id/action_innerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.mahsimecommerce.fragments.Profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

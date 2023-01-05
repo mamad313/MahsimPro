@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MahsimEcommerce</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo">عکس</string>
+    <string name="title">کیف چرم</string>
+    <string name="buy"> خرید</string>
+
+    <string name="home_text">Home</string>
+    <string name="search">Search</string>
+    <string name="like_text">Like</string>
+    <string name="shop">Shop</string>
+    <string name="buyIt">خرید</string>
+    <string name="AddToCard">افرودن به سبدخرید</string>
+    <!--START-->
+    <string name="content_description">image</string>
+    <string name="title_login">ثبت نام</string>
+    <string name="et_hint_email_id">آدرس ایمیل</string>
+    <string name="et_hint_password">رمز عبور</string>
+    <string name="lbl_forgot_password">فراموشی رمز؟</string>
+    <string name="btn_lbl_login">ورود</string>
+    <string name="don_t_have_an_account">هنوز ثبت نام نکردید؟</string>
+    <string name="register"><u>ثبت نام</u></string>
+    <string name="title_text">انوع محصولات چرمی</string>
+    <string name="create_an_account">ساخت اکانت</string>
+    <string name="hint_first_name">نام کاربری</string>
+    <string name="hint_last_name">نام</string>
+    <string name="et_hint_confirm_password">تایید رمزعبور</string>
+    <string name="i_agree_to_the_terms_and_condition">پذیرش مفررات و فوانین</string>
+    <string name="btn_lbl_register">ثبت نام</string>
+    <string name="already_have_an_account">اکانت دارید؟</string>
+    <string name="login">ورود</string>
+    <string name="err_msg_enter_first_name">لطفا نام خود را وارد کنید</string>
+    <string name="err_msg_enter_last_name">لطفا نام خانوادگی خود را وارد کنید</string>
+    <string name="err_msg_enter_email">لطفا ایمیل خود را وارد کنید</string>
+    <string name="err_msg_enter_password">لطفا رمز خود را وارد کنید</string>
+    <string name="err_msg_enter_confirm_password">لطفا ایمیل تایید خود را وارد کنید</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">رمز شما تطابق ندارد</string>
+    <string name="err_msg_agree_terms_and_condition">لطفا قوانین را تایید کنید</string>
+    <string name="title_forgot_password">فراموشی رمز</string>
+    <string name="forgot_password_title_description">برای دریافت رمز جدید ایمیل خود را وارد نمایید</string>
+    <string name="btn_lbl_submit">ثبت کردن</string>
+    <string name="please_wait">لطفا صبر کنید</string>
+    <string name="title_activity_new_category">newCategory</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="action_button">Button</string>
+    <string name="AddToBasket">افزودن به سبد خرید</string>
+    <string name="todo">TODO</string>
+    <string name="profileSaved">سیو شد</string>
+    <!--END-->
+
+</resources>
